@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMvp", "WinFormsMvp\WinFormsMvp.csproj", "{F211DF11-2B89-4FFC-A9B8-4BA9CDF41A9F}"
 EndProject
@@ -22,6 +22,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMvp.StructureMap", "WinFormsMvp.StructureMap\WinFormsMvp.StructureMap.csproj", "{B1CCE4B6-0D35-4043-AC66-6A31FA0E3C79}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMvp.Ninject", "WinFormsMvp.Ninject\WinFormsMvp.Ninject.csproj", "{646770C2-B519-4296-8035-F4C1A5DFB7D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMvp.Autofac", "WinFormsMvp.Autofac\WinFormsMvp.Autofac.csproj", "{EF9773E0-4B42-4659-934A-48B7EDA16CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{225F6E3A-54C8-44B7-B158-A5C340DF6AF1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +102,16 @@ Global
 		{646770C2-B519-4296-8035-F4C1A5DFB7D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{646770C2-B519-4296-8035-F4C1A5DFB7D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{646770C2-B519-4296-8035-F4C1A5DFB7D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EF9773E0-4B42-4659-934A-48B7EDA16CB7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
